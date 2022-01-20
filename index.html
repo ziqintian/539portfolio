@@ -3,13 +3,41 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/html5reset.css">
+        <!-- Link to the stylesheet -->
+        <link rel="stylesheet" href="css/style.css">
         <title>Home Page</title>
     </head>
+
+<!-- All of the visible code in the page belongs in the body tag -->
     <body>
+        <!-- Header is a sematic tag page that aids readability -->
         <header>
+            <!-- Nav is a sematic tag page that aids accessibility -->
+		    <nav>
+			    <ul>
+				    <!-- Since I am on the index file I added class = action to the link to index. -->
+				    <li class="active"><a href = "index.html" >Home page</a></li>
+				    <li><a href = "scences.html">Scences</a></li>
+				    <li><a href = "food.html">Food</a></li>
+				    <li><a href = "about.html">About me</a></li>
+			    </ul>
+		    </nav>
+
             <h1>Home page</h1>
-            <p>SI 530 portfolio site by Skye Tian</p>
         </header>
+        <main>
+            <p>SI 530 portfolio site by Skye Tian</p>
+                <img src = "images/nola-profile-photo.jpg" alt="the profile photo taken in New Orleans, 2021"/>
+                <img src = "images/nola-profile-photo2.jpg" alt="another profile photo taken in New Orleans, 2021"/>
+                <img src = "images/tyc-profile-photo.jpg" alt="the profile photo taken in my hometown, Taiyuan, 2020"/>
+                <img src = "images/seattle-profile-photo.jpg" alt="the profile photo taken in Seattle, 2020"/>
+            </p>
+            
+        </main>
+        <footer>
+            <p>Skye Tian's Trip book &copy; 2022</p>
+        </footer>
     </body>
 </html>
